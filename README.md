@@ -18,7 +18,7 @@ python visualize.py --dataset csv --csv_classes classname2id.csv  --csv_val anno
 - Saved weights for significant change 1: weighted.pt
 
 #### Command for testing first significant change: 
-```python
+```
 python visualize.py --dataset csv --csv_classes classname2id.csv  --csv_val annotationtest.csv --model weighted.pt
 ```
 - Saved weights for significant change 2: 
