@@ -12,8 +12,8 @@ This folder will contain all the images after data cleaning and converting the a
 - Saved weights for baseline : baseline.pt
 
 #### Command for testing the baseline model: 
-```python
-python visualize.py --dataset csv - -csv_classes classname2id.csv  --csv_val annotations_test.csv --model basline.pt
+```
+python visualize.py --dataset csv --csv_classes classname2id.csv  --csv_val annotations_test.csv --model basline.pt
 ```
 - Saved weights for significant change 1: weighted.pt
 
