@@ -4,7 +4,7 @@
 
 - mkdir Test_Images
 
-All the images will be placed in this folder, along with the annotations file
+All the images will be placed in this folder.
 - mkdir Test_Images_Final 
 This folder will contain all the images after data cleaning and converting the annotations.json to annotations_test.csv.
 
