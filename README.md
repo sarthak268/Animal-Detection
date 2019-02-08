@@ -15,14 +15,14 @@ Keep the annotations.json file in the same directory as the final_test_script.py
 
 #### Command for visualising the Baseline Model: 
 ```
-python visualize.py --dataset csv --csv_classes classname2id.csv  --csv_val annotations_test.csv --model basline.pt
+python visualize.py --dataset csv --csv_classes classname2id.csv  --csv_val annotations_test.csv --model baseline.pt
 ```
 
 - Saved weights with weighted random sampling: weighted.pt
 
 #### Command for visualising results with Weighted Random Sampling: 
 ```
-python visualize.py --dataset csv --csv_classes classname2id.csv  --csv_val annotationtest.csv --model weighted.pt
+python visualize.py --dataset csv --csv_classes classname2id.csv  --csv_val annotations_test.csv --model weighted.pt
 ```
 
 - Saved weights with ensemble approach: 
