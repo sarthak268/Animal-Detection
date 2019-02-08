@@ -13,18 +13,21 @@ Keep the annotations.json file in the same directory as the final_test_script.py
 
 - Saved weights for baseline : baseline.pt
 
-#### Command for testing the baseline model: 
+#### Command for visualising the Baseline Model: 
 ```
 python visualize.py --dataset csv --csv_classes classname2id.csv  --csv_val annotations_test.csv --model basline.pt
 ```
-- Saved weights for significant change 1: weighted.pt
 
-#### Command for testing first significant change: 
+- Saved weights with weighted random sampling: weighted.pt
+
+#### Command for visualising results with Weighted Random Sampling: 
 ```
 python visualize.py --dataset csv --csv_classes classname2id.csv  --csv_val annotationtest.csv --model weighted.pt
 ```
-- Saved weights for significant change 2: 
-#### Command for testing second significant change:
+
+- Saved weights with ensemble approach: 
+
+#### Command for visualising results with Ensemble Approach:
 
 
 
