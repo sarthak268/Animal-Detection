@@ -5,9 +5,11 @@
 - mkdir Test_Images
 
 All the images will be placed in this folder, along with the annotations file
-- mv annotations.json ./Test_Images
 - mkdir Test_Images_Final 
 This folder will contain all the images after data cleaning and converting the annotations.json to annotations_test.csv.
+
+Keep the annotations.json file in the same directory as the final_test_script.py.
+
 
 - Saved weights for baseline : baseline.pt
 
