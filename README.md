@@ -11,7 +11,6 @@ This folder will contain all the images after data cleaning and converting the a
 Keep the annotations.json file in the same directory as the clean_data.py.
 
 
-- Saved weights for baseline : baseline.pt
 
 #### For testing, first clean the test data:
 ```
@@ -42,8 +41,6 @@ python test_improved.py --test_anno_file annotations_test.csv --type improved_en
 ```
 python visualize.py --dataset csv --csv_classes classname2id.csv --csv_val annotations_test.csv --model <saved_model_pth>
 ```
-
-- Saved weights with weighted random sampling: weighted.pt
 
 #### Command for visualising results with Weighted Random Sampling: 
 ```
