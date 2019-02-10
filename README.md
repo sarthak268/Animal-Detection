@@ -1,5 +1,7 @@
 # Animal-Detection
 
+<href a="https://drive.google.com/drive/folders/1hAgbxelAX58oHRAXGizAd02cxPuWISCN?usp=sharing">Link for saved weights</href>
+
 ### Commands for evaluating the model on heldout test set.
 
 - mkdir Test_Images
