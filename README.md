@@ -4,11 +4,14 @@
 
 - Commands for evaluating the model on heldout test set.
 
---> mkdir Test_Images
-<br>All the images will be placed in this folder
-<br>
---> mkdir Test_Images_Final 
-<br>This folder will contain all the images after data cleaning and converting the annotations.json to annotations_test.csv.
+```
+mkdir Test_Images
+```
+All the images will be placed in this folder
+```
+mkdir Test_Images_Final 
+```
+This folder will contain all the images after data cleaning and converting the annotations.json to annotations_test.csv.
 
 Keep the annotations.json file in the same directory as the clean_data.py.
 
