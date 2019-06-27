@@ -1,5 +1,4 @@
 # Animal-Detection
-DL Assignment 1
 <a href="https://drive.google.com/drive/folders/1hAgbxelAX58oHRAXGizAd02cxPuWISCN?usp=sharing">Link for saved weights</a>
 
 - Commands for evaluating the model on heldout test set.
