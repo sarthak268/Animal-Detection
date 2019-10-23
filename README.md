@@ -26,17 +26,17 @@ python clean_data.py
 python test_baseline.py --test_anno_file annotations_test.csv --type baseline
 ```
 
-- Command for testing Baseline Model with Ensemble Approach:
+- Command for testing the Baseline Model with Ensemble Approach:
 ```
 python test_baseline.py --test_anno_file annotations_test.csv --type baseline_ensemble
 ```
 
-- Command for testing Baseline Model with Weighted Random Sampling:
+- Command for testing the Baseline Model with Weighted Random Sampling:
 ```
 python test_improved.py --test_anno_file annotations_test.csv --type improved
 ```
 
-- Command for testing Baseline Model with Weighted Random Sampling and Ensemble Approach: 
+- Command for testing the Baseline Model with Weighted Random Sampling and Ensemble Approach: 
 ```
 python test_improved.py --test_anno_file annotations_test.csv --type improved_ensemble
 ```
